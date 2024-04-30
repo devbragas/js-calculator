@@ -2,8 +2,6 @@ const previousOperationText = document.getElementById("previous-operation");
 const currentOperationText = document.getElementById("current-operation");
 const buttons = document.querySelectorAll(".btn-view button");
 
-console.log(buttons);
-
 class Calculator {
   constructor(previousOperationText, currentOperationText) {
     this.previousOperationText = previousOperationText;
